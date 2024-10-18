@@ -46,5 +46,5 @@ La paella es un plato tradicional español, especialmente de la región de Valen
 
 ---
 
-Para más detalles sobre esta receta y sus variaciones, puedes visitar [este enlace](#).
+Para más detalles sobre esta receta y sus variaciones, puedes visitar [este enlace](https://es.wikipedia.org/wiki/Paella).
 
