@@ -64,3 +64,42 @@
   - [personas.xsd](ut02-ejercicios/03-validacion-con-xsd/ejercicio01/personas.xsd)
   - [estudiantes.xml](ut02-ejercicios/03-validacion-con-xsd/ejercicio02/estudiantes.xml)
   - [estudiantes.xsd](ut02-ejercicios/03-validacion-con-xsd/ejercicio02/estudiantes.xsd)
+
+### UT03: Lenguajes para la Transformación de Documentos
+
+#### Ejercicios
+
+- **XPath**:
+  - **Ejercicio 1**:
+    - [Ejercicio1XPath.md](ut03-ejercicios/XPath/Ejercicio1/Ejercicio1XPath.md)
+  - **Ejercicio 2**:
+    - [Ejercicio2XPath.md](ut03-ejercicios/XPath/Ejercicio2/Ejercicio2XPath.md)
+  - **Ejercicio 3**:
+    - [Ejercicio3XPath.md](ut03-ejercicios/XPath/Ejercicio3/Ejercicio3XPath.md)
+  - **Ejercicio 4**:
+    - [Ejercicio4XPath.md](ut03-ejercicios/XPath/Ejercicio4/Ejercicio4XPath.md)
+  - **Ejercicio 5**:
+    - [Ejercicio5XPath.md](ut03-ejercicios/XPath/Ejercicio5/Ejercicio5XPath.md)
+
+- **XQuery**:
+  - **Ejercicio 1**:
+    - [biblioteca.xml](ut03-ejercicios/XQuery/Ejercicio1/biblioteca.xml)
+    - [Ejercicio1XQuery.md](ut03-ejercicios/XQuery/Ejercicio1/Ejercicio1XQuery.md)
+  - **Ejercicio 2**:
+    - [tienda.xml](ut03-ejercicios/XQuery/Ejercicio2/tienda.xml)
+    - [Ejercicio2XQuery.md](ut03-ejercicios/XQuery/Ejercicio2/Ejercicio2XQuery.md)
+  - **Ejercicio 3**:
+    - [musica.xml](ut03-ejercicios/XQuery/Ejercicio3/musica.xml)
+    - [Ejercicio3XQuery.md](ut03-ejercicios/XQuery/Ejercicio3/Ejercicio3XQuery.md)
+  - **Ejercicio 4**:
+    - [estudiantes.xml](ut03-ejercicios/XQuery/Ejercicio4/estudiantes.xml)
+    - [Ejercicio4XQuery.md](ut03-ejercicios/XQuery/Ejercicio4/Ejercicio4XQuery.md)
+  - **Ejercicio 5**:
+    - [pedidos.xml](ut03-ejercicios/XQuery/Ejercicio5/pedidos.xml)
+    - [Ejercicio5XQuery.md](ut03-ejercicios/XQuery/Ejercicio5/Ejercicio5XQuery.md)
+    - [consultas.xq](ut03-ejercicios/XQuery/Ejercicio5/consultas.xq)
+
+- **XSLT**:
+  - [XSLTEjercicios.md](ut03-ejercicios/XSLT/XSLTEjercicios.md)
+
+---
