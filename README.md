@@ -102,9 +102,9 @@
 - **XSLT**:
   - [XSLTEjercicios.md](ut03-ejercicios/XSLT/XSLTEjercicios.md)
 
----
+### UT04 - Ejercicios
 
-# UT04 - Ejercicios
+#### Ejercicios:
 
 - **Ejercicio 1**:
   - [loremipsum.html](ut04-ejercicios/ejercicio01/loremipsum.html)
