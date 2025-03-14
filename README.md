@@ -103,3 +103,24 @@
   - [XSLTEjercicios.md](ut03-ejercicios/XSLT/XSLTEjercicios.md)
 
 ---
+
+# UT04 - Ejercicios
+
+- **Ejercicio 1**:
+  - [loremipsum.html](ut04-ejercicios/ejercicio01/loremipsum.html)
+
+- **Ejercicio 2**:
+  - [timbernerslee.html](ut04-ejercicios/ejercicio02/timbernerslee.html)
+
+- **Ejercicio 3**:
+  - [vinctoncerf.html](ut04-ejercicios/ejercicio03/vinctoncerf.html)
+
+- **Ejercicio 4**:
+  - [formato.html](ut04-ejercicios/ejercicio04/formato.html)
+
+- **Ejercicio 5**:
+  - [educacion.html](ut04-ejercicios/ejercicio05/educacion.html)
+
+---
+
+
