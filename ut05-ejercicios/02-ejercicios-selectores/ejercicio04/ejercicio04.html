@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <style>
+        /* Estilos para los títulos de noticias */
+        .noticia h2 {
+            color: darkblue;
+            font-family: Georgia, serif;
+        }
+
+        /* Primer párrafo de cada noticia en cursiva */
+        .noticia p:first-of-type {
+            font-style: italic;
+        }
+
+        /* Enlaces dentro de noticias */
+        .noticia a {
+            text-decoration: none;
+            color: inherit;
+            transition: text-decoration 0.3s ease;
+        }
+
+        /* Enlaces al pasar el ratón */
+        .noticia a:hover {
+            text-decoration: underline;
+        }
+
+        /* Enlaces con clase .externo */
+        .noticia a.externo {
+            color: red;
+            margin-left: 10px;
+        }
+
+        /* Estilos adicionales para mejor presentación */
+        .noticia {
+            border-bottom: 1px solid #eee;
+            padding: 20px 0;
+            margin-bottom: 20px;
+            max-width: 800px;
+        }
+
+        .noticia:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="noticia">
+        <h2>Última hora</h2>
+        <p>Resumen introductorio...</p>
+        <p>Detalles de la noticia.</p>
+        <a href="#">Seguir leyendo</a>
+        <a href="https://ejemplo.com" class="externo" target="_blank">Fuente externa</a>
+    </div>
+    
+    <div class="noticia">
+        <h2>Otra noticia importante</h2>
+        <p>Introducción a esta noticia...</p>
+        <p>Contenido detallado aquí.</p>
+        <a href="#">Leer más</a>
+        <a href="https://otrafuente.com" class="externo" target="_blank">Ver fuente</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <style>
+        /* Estilos generales para la tabla */
+        table {
+            width: 100%;
+            max-width: 600px;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            margin: 20px 0;
+        }
+
+        /* Estilos para las celdas */
+        td, th {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Estilos para el encabezado */
+        thead tr {
+            background-color: #333;
+            color: white;
+        }
+
+        /* Alternar colores de fondo para las filas */
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #e0e0e0;
+        }
+
+        /* Efecto hover para las filas */
+        tbody tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Primera columna en negrita */
+        tbody td:first-child {
+            font-weight: bold;
+        }
+
+        /* Estilos adicionales para mejorar la presentación */
+        th {
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.9em;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr><th>Nombre</th><th>Edad</th><th>Ciudad</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Ana</td><td>28</td><td>Madrid</td></tr>
+            <tr><td>Luis</td><td>35</td><td>Barcelona</td></tr>
+            <tr><td>María</td><td>22</td><td>Valencia</td></tr>
+            <tr><td>Carlos</td><td>40</td><td>Sevilla</td></tr>
+            <tr><td>Sofía</td><td>31</td><td>Bilbao</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>

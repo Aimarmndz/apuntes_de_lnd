@@ -1,0 +1,54 @@
+/* Estilos base para todos los enlaces */
+a {
+    color: red;
+    text-decoration: none;
+    padding: 2px 5px;
+    transition: all 0.3s ease;
+}
+
+/* Estado hover (cursor sobre el enlace) */
+a:hover {
+    color: white;
+    background-color: red;
+    text-decoration: underline;
+}
+
+/* Estado active (enlace siendo clickeado) */
+a:active {
+    color: orange;
+    text-decoration: none;
+}
+
+/* Estado visited (enlace visitado) */
+a:visited {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+/* Estado focus (enlace con foco de teclado) */
+a:focus {
+    color: blue;
+    text-decoration: underline;
+    outline: none; /* Opcional: elimina el outline por defecto */
+}
+
+/* Estilos adicionales para mejor visualización */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}

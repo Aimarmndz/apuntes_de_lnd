@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Fonts - Ejercicio 4</title>
+    <!-- Enlaces a Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #2d3436;
+            background-color: #f5f6fa;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Primera fuente para h1 y h2 - Lobster */
+        h1, h2 {
+            font-family: 'Lobster', cursive;
+            color: #e84393;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-top: 40px;
+            border-bottom: 2px dashed #e84393;
+            padding-bottom: 10px;
+        }
+
+        /* Segunda fuente para párrafos - Roboto */
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            background-color: #dfe6e9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #d63031;
+            font-weight: bold;
+        }
+
+        /* Tercera fuente para items de lista - Poppins */
+        ul {
+            background-color: #fff;
+            padding: 20px 30px 20px 40px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        li {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            margin-bottom: 12px;
+            color: #2d3436;
+            padding-left: 10px;
+            list-style-type: none;
+            position: relative;
+        }
+
+        li:before {
+            content: "→";
+            color: #e84393;
+            font-weight: bold;
+            position: absolute;
+            left: -20px;
+        }
+
+        /* Estilos para el footer */
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9rem;
+            padding: 20px;
+            background-color: #2d3436;
+            color: #f5f6fa;
+            border-radius: 5px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Diseño responsivo */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            h2 {
+                font-size: 1.7rem;
+            }
+            
+            ul {
+                padding: 15px 25px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            p, li {
+                font-size: 1rem;
+            }
+            
+            ul {
+                padding-left: 20px;
+            }
+            
+            li:before {
+                left: -15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Google Fonts</h1>
+    <p>Google Fonts ofrece cientos de fuentes que se pueden incluir fácilmente en cualquier página web. Solo necesitas incluir un enlace en el encabezado del documento y aplicar la fuente con la propiedad <code>font-family</code>.</p>
+
+    <h2>¿Qué deben hacer los alumnos?</h2>
+    <ul>
+        <li>Cambiar la fuente a otra de Google Fonts.</li>
+        <li>Modificar los colores de fondo y texto.</li>
+        <li>Aplicar estilos diferentes a cada sección.</li>
+        <li>Agregar un diseño responsivo (si ya conocen media queries).</li>
+    </ul>
+
+    <footer>
+        Página creada para fines educativos. Curso de Desarrollo Web - 2025
+    </footer>
+</body>
+</html>

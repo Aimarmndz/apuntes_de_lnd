@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <style>
+        /* Estilos base para la navegación */
+        nav {
+            font-family: Arial, sans-serif;
+            padding: 15px;
+            background-color: #f8f8f8;
+            border-bottom: 1px solid #e7e7e7;
+        }
+        
+        /* Lista de enlaces */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        
+        /* Estilos base para los enlaces */
+        nav a {
+            text-decoration: none;
+            color: blue;
+            font-weight: 500;
+            padding: 5px 10px;
+            transition: color 0.3s ease;
+        }
+        
+        /* Orden correcto de los pseudoselectores para evitar conflictos */
+        /* 1. :link (por defecto ya lo tenemos con el selector 'a') */
+        /* 2. :visited */
+        nav a:visited {
+            color: purple;
+        }
+        
+        /* 3. :hover */
+        nav a:hover {
+            color: green;
+        }
+        
+        /* 4. :active */
+        nav a:active {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre mí</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
